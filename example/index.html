@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/text-alignment.css">
+    <style>
+        div {
+            height: 100px;
+            background-color: rgb(255, 129, 129);
+        }
+
+        /* breakpoint-sm */
+        @media screen and (min-width: 600px) {
+            div {
+                background-color: rgb(141, 199, 141);
+            }
+        }
+
+        /* breakpoint-md */
+        @media screen and (min-width: 960px) {
+            div {
+                background-color: rgb(177, 177, 255);
+            }
+        }
+
+        /* breakpoint-lg */
+        @media screen and (min-width: 1248px) {
+            div {
+                background-color: yellow;
+            }
+        }
+
+        /* breakpoint-xl */
+        @media screen and (min-width: 1888px) {
+            div {
+                background-color: orange;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text-xs-center text-sm-left text-md-right text-lg-center text-xl-left">
+        Hello
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "css-text-alignment",
+  "version": "1.0.0",
+  "description": "text alignment helper class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clonezer/css-text-alignment-helper.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Peerasak Unsakon <clonezer@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clonezer/css-text-alignment-helper/issues"
+  },
+  "homepage": "https://github.com/clonezer/css-text-alignment-helper#readme"
+}
